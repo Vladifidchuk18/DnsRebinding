@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Inspired by [@tavisio](https://bugs.chromium.org/p/project-zero/issues/detail?id=1471&desc=3)
 
 This project is meant to be an All-in-one Toolkit to test further [DNS 
@@ -190,3 +191,6 @@ For me after about 60 seconds fills up with the string `TOPSECRET` and the time
 it took. DNS rebinding circumvented [SOP](https://en.wikipedia.org/wiki/Same-origin_policy).
 To get the breached data out of the iframe one could use [Window.PostMessage()](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) or include code that forwards the data
 to another attacker server within the script itself.
+=======
+# DnsRebinding
+>>>>>>> b38775806af49d923c55918ee05566fbb1728e98
