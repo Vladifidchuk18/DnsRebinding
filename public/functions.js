@@ -1,6 +1,6 @@
 var id = Math.random().toString(36).substr(2, 9)
 
-document.getElementById('rebinddomain').value = `${id}.81-4-124-10.127-0-0-1.rebind.43z.one`
+document.getElementById('rebinddomain').value = `${id}.81-4-124-10.127-0-0-1.rebind.santarussia.com`
 
 document.getElementById('script').value = `
 var start = Date.now()

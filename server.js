@@ -1,5 +1,5 @@
 const http = require('http')
-const httpPort = 5000
+const httpPort = 80
 
 const express = require('express')
 const app = express()
@@ -22,7 +22,7 @@ dnsServer.on('query', query => {
 
   const splits = domain.split('.')
 
-  if(domain.indexOf('43z.one') < 0)
+  if(domain.indexOf('santarussia.com') < 0)
     return
 
   if(splits.length != 6)
@@ -70,6 +70,6 @@ app.get('/attack', (req, res) => {
   `)
 })
 
-app.listen(httpPort,'127.0.0.1', () => {
+app.listen(httpPort,'0.0.0.0', () => {
   console.log(`HTTP server is listening on ${httpPort}`)
 })
